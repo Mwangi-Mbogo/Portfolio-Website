@@ -1,0 +1,103 @@
+
+.contact-container{
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.contact-info, .contact-form{
+  flex: 1;
+  min-width: 300px;
+  padding: 30px;
+  background-color: var(--secondary-bg-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-info h3, .contact-form h3{
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+.contact-info p{
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+.contact-details .contact-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: var(--text-color);
+}
+.contact-item i{
+  font-size: 20px;
+  margin-right: 15px;
+  color: var(--animation-color);
+}
+.contact-process{
+  color: var(--text-color);
+}
+.social-icons{
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.social-icons a{
+  color: var(--text-color);
+  font-size: 21px;
+  transition: color .3s ease;
+}
+.social-icons a:hover{
+  color: var(--animation-color);
+}
+.download-cv-btn{
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: var(--animation-color);
+  color: var(--text-color);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color .3s ease;
+}
+.download-cv-btn:hover{
+  background-color: #218838;
+}
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-group label{
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 8px;
+  display: block;
+}
+.form-group input,
+.form-group textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--primary-bg-color);
+  transition: border-color .3s ease;
+}
+.form-group input:focus,
+.form-group textarea:focus{
+  border-color: var(--animation-color);
+  outline: none;
+}
+.form-group textarea{
+  resize: vertical;
+}
+#msg{
+  color: #61b752;
+  display: block;
+}
