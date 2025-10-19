@@ -1,0 +1,40 @@
+ 
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--secondary-bg-color);
+}
+.about-img img{
+  width: 20vw;
+}
+.heading{
+  text-align: center;
+  font-size: 4.5rem;
+}
+.about-content h2{
+  text-align: left;
+  line-height: 1.2;
+}
+.about-content h3{
+  font-size: 2.6rem;
+}
+.about-content p{
+  font-size: 1.6rem;
+  margin: 2rem 0;
+  
+}
+.btn{
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: var(--animation-color);
+  color: var(--text-color);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color .3s ease;
+}
+.btn:hover{
+  background-color: #218838;
+}
